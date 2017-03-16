@@ -1,0 +1,87 @@
+/* Estilo Principal */
+body{
+    background-color: #F2F2F2;
+}
+
+.content_menu_interactive{
+	padding: 8px;
+}
+
+.subdiv_menu_interactive{
+	box-shadow: 0px 0px 8px;
+	border-radius: 8px;
+	padding:5px;
+	background-color: #FFF;
+}
+
+.subdiv_menu_interactive:hover{
+	background-color:#E0ECF8;
+	cursor: pointer;
+}
+
+.lbl_menu_int{
+	font-family: 'Georgia';
+	font-size: 1.4em;
+	padding: 2px;
+}
+
+.barra_sup_css{
+	background-color:#000000; /*; #585858;*/
+	height: 50px;
+	z-index:3;
+	color:#D8D8D8;
+}
+
+.btn_menu_c{
+	font-size:2.3em;
+}
+
+.btn_closemenu{
+	float: right; 
+	margin-top: 18px; 
+	margin-right:15px; 
+	color: white; 
+	cursor:pointer;
+}
+
+#btn_menu:hover{
+	/*background-color: #2E2E2E;*/
+	background: rgba(255,255,255,0.2);
+	cursor:pointer;
+}
+
+.c_anime_div{
+	animation-name: example;
+    animation-duration: 1s;
+}
+
+.input_fac{
+	padding-left:3px;
+	padding-right:3px;
+}
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+
+@keyframes example {
+    from {opacity:0.2;}
+    to {opacity:1;}
+}
